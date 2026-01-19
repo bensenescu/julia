@@ -15,6 +15,8 @@ In the future, I want this to be one my one stop shop for my cooking needs. Some
 - Grocery receipt analyzer
 - Sharing recipes (URL based, not just text)
 
+![Image](https://github.com/user-attachments/assets/3de93034-bf4c-4d88-a0aa-664713a10424)
+
 ## Self Hosting
 1. Complete below prerequisites
 2. Run these commands:
