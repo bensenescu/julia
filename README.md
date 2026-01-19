@@ -1,5 +1,5 @@
 # Julia - Open source ChatGPT for cooking
-I love using ChatGPT for cooking. It makes the cooking process way simpler and approachable. Instead of long complicated recipes, it give simple instructions and acommodates the ingredients you have on hand. The recipes taste great too!
+I love using ChatGPT for cooking. It makes the process way simpler and approachable. Instead of long complicated recipes, it give simple instructions and acommodates the ingredients you have on hand. The recipes taste great too!
 
 Julia is an open source chat app which streamlines common cooking needs:
 - 📖 Ask for specific recipes
@@ -22,6 +22,10 @@ In the future, I want this to be one my one stop shop for my cooking needs. Some
 git clone https://github.com/bensenescu/julia.git
 cd julia
 npx everyapp app deploy
+```
+3. Add you OPENAI_API_KEY: 
+```sh 
+npx wrangler secret put OPENAI_API_KEY
 ```
 
 ### Prerequisites
