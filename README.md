@@ -1,21 +1,35 @@
-# Julia
-I love using ChatGPT for cooking. It really makes the cooking process way simpler and more approachable. Instead of long complicated recipes, it give simple instructions and acommodates the ingredients you have on hand. The recipes taste great too!
+# Julia - Open source ChatGPT for cooking
+I love using ChatGPT for cooking. It makes the cooking process way simpler and approachable. Instead of long complicated recipes, it give simple instructions and acommodates the ingredients you have on hand. The recipes taste great too!
 
-Julia is an open source chat app which can be used for the following:
-- Ask for recipes
-- Saves recipes you like in a recipe book
-- Get ideas for what to cook
+Julia is an open source chat app which streamlines common cooking needs:
+- 📖 Ask for specific recipes
+   - "Make me a chicken lo mein recipe."
+- 💾 Saves recipes you like in a recipe book
+- 💡 Get ideas to spice up your diet
+   - "What are some steak sauces I can make in under 15 minutes?"
+   - "What are some good budget friendly meal prep ideas?"
 
-In the future, I want this to be one my one stop shop for my cooking needs. Some future feature ideas:
-- Grocery list
+In the future, I want this to be one my one stop shop for my cooking needs. Some ideas:
+- Meal planning
+- Shared grocery list w/ family members
 - Grocery receipt analyzer
 - Sharing recipes (URL based, not just text)
 
 ## Self Hosting
-### Prerequisites
-Julia was built as part of my larger project: [Every App](https://github.com/every-app/every-app). Every App hoists common logic out of individual apps like auth and user management so that each app doesn't need to revinvent the wheel. The goal is foster an open source ecosystem of apps and make it more accessible to people who aren't already self hosting software themselves.
+1. Complete below prerequisites
+2. Run these commands:
+```sh
+git clone https://github.com/bensenescu/julia.git
+cd julia
+npx everyapp app deploy
+```
 
-Every App apps are self hosted on Cloudflare so there is a little bit of initial setup, but then self hosting more apps is as simple as one CLI command.
+### Prerequisites
+Julia was built as part of my larger project: [Every App](https://github.com/every-app/every-app). Every App hoists common logic out of individual apps like auth and user management so that each app doesn't need to revinvent the wheel. 
+
+The goal is to foster an open source ecosystem of apps and make it more accessible to people who aren't already self hosting software themselves.
+
+Every App apps are self hosted on Cloudflare so there is a little bit of initial setup, but then self hosting more apps is as simple as the `npx everyapp app deploy` above.
 
 1. Install [Node.js](https://nodejs.org/)
 
@@ -35,10 +49,6 @@ Every App apps are self hosted on Cloudflare so there is a little bit of initial
     - `npx everyapp gateway deploy`
     - Follow the link this returns to create your account in the Gateway.
 
-### Self Host Julia
-1. Clone this repo
-2. cd julia
-3. `npx everyapp app deploy`
 
 ## Local Development
 ### Setup
