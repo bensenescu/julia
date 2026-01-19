@@ -20,7 +20,7 @@ function usePageTitle() {
     return "Chats";
   }
   // Default for chat pages and home
-  return "Chef";
+  return "Julia";
 }
 
 /**

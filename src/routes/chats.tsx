@@ -51,7 +51,7 @@ function ChatsPage() {
         <EmptyState
           icon={<MessageSquare className="h-12 w-12 mx-auto" />}
           title="No Chats Yet"
-          description="Start a conversation with your personal chef assistant."
+          description="Start a conversation with your personal cooking assistant."
           action={
             <button onClick={createNewChat} className="btn btn-primary">
               Start a Chat

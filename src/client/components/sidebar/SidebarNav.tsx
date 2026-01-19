@@ -75,7 +75,7 @@ export function SidebarNav({ onNavigate }: SidebarNavProps) {
           <MessageSquare
             className={`h-5 w-5 ${isChatSectionActive ? "text-primary" : ""}`}
           />
-          Chef
+          Julia
         </Link>
 
         {/* Recent Chats - always show */}

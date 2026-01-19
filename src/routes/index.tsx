@@ -57,7 +57,7 @@ function ChatLandingPage() {
           <div className="max-w-2xl mx-auto px-4 py-4">
             <div className="flex items-start justify-between">
               <div>
-                <h1 className="page-title">Chef</h1>
+                <h1 className="page-title">Julia</h1>
                 <p className="text-base-content/70 mt-1">
                   Your personal cooking assistant
                 </p>

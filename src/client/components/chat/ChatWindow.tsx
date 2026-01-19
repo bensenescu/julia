@@ -43,7 +43,7 @@ export function ChatWindow({
         ) : (
           <div className="flex items-center justify-center h-full text-base-content/60">
             <div className="text-center py-12">
-              <p className="text-lg mb-2">Welcome to Chef!</p>
+              <p className="text-lg mb-2">Welcome to Julia!</p>
               <p className="text-sm">
                 Ask me anything about cooking, recipes, or ingredients.
               </p>

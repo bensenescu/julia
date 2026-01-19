@@ -1,39 +1,41 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "every-chef",
-  "main": "@tanstack/react-start/server-entry",
-  "compatibility_date": "2025-09-02",
-  "compatibility_flags": ["nodejs_compat"],
-  "dev": {
-    "port": 3001,
-  },
-  "observability": {
-    "enabled": true,
-  },
-  "services": [
-    {
-      "binding": "EVERY_APP_GATEWAY",
-      "service": "every-app-gateway",
-    },
-  ],
-  "kv_namespaces": [
-    {
-      "binding": "KV",
-      "id": "935dec5f006046a7b3fabf24920f65a6",
-    },
-  ],
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "every-chef",
-      "database_id": "e5bb985e-9390-4150-83ab-8db35c154a54",
-      "migrations_dir": "drizzle",
-    },
-  ],
-  "r2_buckets": [
-    {
-      "bucket_name": "every-chef",
-      "binding": "R2",
-    },
-  ],
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "every-julia",
+	"main": "@tanstack/react-start/server-entry",
+	"compatibility_date": "2025-09-02",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"dev": {
+		"port": 3001,
+	},
+	"observability": {
+		"enabled": true,
+	},
+	"services": [
+		{
+			"binding": "EVERY_APP_GATEWAY",
+			"service": "every-app-gateway",
+		},
+	],
+	"kv_namespaces": [
+		{
+			"binding": "KV",
+			"id": "935dec5f006046a7b3fabf24920f65a6",
+		},
+	],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "every-julia",
+			"database_id": "e5bb985e-9390-4150-83ab-8db35c154a54",
+			"migrations_dir": "drizzle",
+		},
+	],
+	"r2_buckets": [
+		{
+			"bucket_name": "every-julia",
+			"binding": "R2",
+		},
+	],
 }

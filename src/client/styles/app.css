@@ -11,7 +11,7 @@
 }
 
 @plugin "daisyui/theme" {
-  name: "chef";
+  name: "julia";
   default: true;
   prefersdark: false;
   color-scheme: "light";
@@ -46,7 +46,7 @@
 }
 
 @plugin "daisyui/theme" {
-  name: "chef-dark";
+  name: "julia-dark";
   prefersdark: true;
   color-scheme: "dark";
   --color-base-100: oklch(18% 0 0);
@@ -94,8 +94,8 @@ select {
 }
 
 code {
-  font-family:
-    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 @layer utilities {
