@@ -21,14 +21,14 @@
 	"kv_namespaces": [
 		{
 			"binding": "KV",
-			"id": "935dec5f006046a7b3fabf24920f65a6",
+			"id": "767c8709a4204c9b93a157517e4b5dca",
 		},
 	],
 	"d1_databases": [
 		{
 			"binding": "DB",
 			"database_name": "every-julia",
-			"database_id": "e5bb985e-9390-4150-83ab-8db35c154a54",
+			"database_id": "6fab0536-f267-4aff-9118-fea3e04bab05",
 			"migrations_dir": "drizzle",
 		},
 	],
